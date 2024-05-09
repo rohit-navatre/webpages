@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+<style type="text/css">
+	
+	.box{
+		width: 150px;
+		height: 150px;
+		background: green;
+		border-radius: 50%;
+	}
+
+	.b1{position: absolute;
+		animation-name: b1;
+		animation-duration: 5s;
+		animation-fill-mode: 
+		forwards:;
+
+	}
+
+	.b2{
+		position:absolute;
+		animation-name: b2;
+		animation-duration: 10s;
+		animation-fill-mode: ;
+		forwards:;
+	}
+
+	.b3{
+		position:absolute;
+		animation-name: b3;
+		animation-duration: 15s;
+		animation-fill-mode: ;
+		forwards:;
+
+	}
+
+	@keyframes b1{
+		100%{
+			background: gray;
+			margin-top: 0;
+			margin-left: 1000px;
+		}
+	}
+
+	@keyframes b2{
+		50%{
+/*			margin-top: 400px;*/
+			margin-left: 1000px;
+		}
+		100%{
+			background: blue;
+			margin-top: 400px;
+			margin-left: 1000px;
+		}
+	}
+
+	@keyframes b3{
+		25%{
+/*			margin-top: 400px;*/
+			margin-left: 400px;
+		}
+		50%{
+			margin-top: 400px;
+			margin-left: 1000px;
+		}
+		100%{
+			background: orange;
+			margin-top: 400px;
+/*			margin-left: 1000px;*/
+		}
+	}
+
+	@keyframes b4{
+		25%{
+/*			margin-top: 400px;*/
+			margin-left: 1000px;
+		}
+		50%{
+			margin-top: 400px;
+			margin-left: 1000px;
+		}
+		75%{
+			margin-top: 400px;
+/*			margin-left: 1000px;*/
+		}
+		100%{
+			background: orange;
+/*			margin-top: 400px;*/
+/*			margin-left: 1000px;*/
+		}
+	}
+
+
+</style>
+<body>
+
+	<div class="box b1"></div>
+	<div class="box b2"></div>
+	<div class="box b3"></div>
+	<div class="box b4"></div>
+
+
+</body>
+</html>
